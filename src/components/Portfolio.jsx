@@ -1,5 +1,6 @@
 // src/components/Portfolio.jsx
 import { useState, useEffect, useRef, useCallback } from 'react'
+import preweddVideo from '../assets/video/prewedd_preview.mp4'
 
 // ─── DATA GALERI — ganti dengan foto-foto kamu ───────────────────────────────
 const GALLERY_ITEMS = [
@@ -244,16 +245,17 @@ export default function Portfolio() {
             borderRadius: '2px',
             background: '#1a1a1a',
           }}>
-            <iframe
-              src={`https://www.youtube.com/embed/${VIDEO_EMBED_ID}?rel=0&modestbranding=1`}
-              title="Wedding Highlight Video"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowFullScreen
-              loading="lazy"
+            <video
+              src={preweddVideo}
+              title="Pre Wedding Highlight Video"
+              controls
+              muted
+              playsInline
               style={{
                 position: 'absolute', top: 0, left: 0,
                 width: '100%', height: '100%',
-                border: 'none',
+                border: '1px solid #C4B2A6',
+                objectFit: 'cover',
               }}
             />
           </div>

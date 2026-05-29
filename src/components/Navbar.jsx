@@ -74,7 +74,7 @@ export default function Navbar() {
         <div className="container" style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}>
 
           {/* Logo */}
-          <a href="/" style={{ textDecoration: 'none' }} onClick={() => handleNavClick('#home')}>
+          <a href="#home" style={{ textDecoration: 'none' }} onClick={() => handleNavClick('#home')}>
             <span style={{
               fontFamily: 'var(--font-heading)',
               fontSize: '1.375rem',

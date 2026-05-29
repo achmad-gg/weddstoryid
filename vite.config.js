@@ -4,7 +4,7 @@ import tailwindcss from '@tailwindcss/vite'
 
 export default defineConfig({
   plugins: [react(), tailwindcss()],
-
+  base: '/weddstoryid/',
   build: {
     // Chunk size warning threshold (kB)
     chunkSizeWarningLimit: 600,

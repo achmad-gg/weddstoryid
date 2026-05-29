@@ -55,4 +55,4 @@ export const DEFAULT_DESCRIPTION =
   'weddstoryid — Fotografer & Videografer Pernikahan profesional di Surabaya & Sidoarjo. Paket foto wedding terjangkau, hasil berkualitas. Hubungi kami sekarang!'
 
 /** Canonical base URL — ganti dengan domain asli saat deploy */
-export const SITE_URL = 'https://yourdomain.com'
+export const SITE_URL = 'https://achmad-gg.github.io/weddstory/'
